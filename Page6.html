@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrek Servery</title>
+</head>
+<body>
+    <h1>This. Is. Servery.</h1>
+        <form action="action_page.php" method="post">
+            <!--action is where the data from the form goes-->
+            <!--method="post" is to send the data -&- method="get" will hold the data in the html (good for search boxes, terrible for passwords)-->
+
+            <div>
+                <label for="fname">First Name:</label>
+                <input type="text" id="fname" name="fname" placeholder="Type First Name Here" required>
+
+                <label for="lname">Last Name:</label>
+                <input type="text" id="lname" name="lname" placeholder="Type Last Name Here" required><br>
+                <br>
+                <label for="title">Title:</label>
+                <label for="title">Mr.:</label>
+                <input type="radio" id="title" name="title" value="Mr.">
+                <label for="title">Mrs.:</label>
+                <input type="radio" id="title" name="title" value="Ms.">
+                <label for="title">Shrek:</label>
+                <input type="radio" id="title" name="title" value="Shrek">
+            </div>
+            <br>
+           
+            <div>
+                <label for="tmovie">How many times have you watched Shrek?</label>
+                <input type="number" id="tmovie" name="tmovie" min="0" max="99999999" value="1" required>
+            </div>
+            <br>
+            <div>
+                <label for="sbuy">What payment method do you use to buy Shrek movies?</label>
+                <select id="sbuy" name="sbuy">
+                    <option value="cash">Cash</option>
+                    <option value="Uber Eats">Uber Eats</option>
+                    <option value="debit">Debit Card</option>
+                    <option value="giftcard">Gift Card</option>
+                </select>
+                <br><br>
+            <dv>
+                <label type="checkbox" id="feet" name"feet">Do you have Shrek feet?</label>
+                <input type="checkbox" id="feet" name="feet" value="yes" required><br>
+            </dv>
+            <br>
+            <dv>
+                <input type="reset"><br>
+                <br>
+                <input type="submit"><br>
+            </dv>
+        </form>
+        <br>
+    <a href="index.html">This will take you back to the home page</a>
+</body>
+</html>
