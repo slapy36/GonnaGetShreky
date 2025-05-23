@@ -1,0 +1,9 @@
+.footer-menu-item .footer-menu-item-wrapper .footer-menu {
+    word-break: break-word !important;
+    display: block !important;
+}
+
+element.style .footer {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+}
